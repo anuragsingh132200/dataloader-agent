@@ -1,5 +1,5 @@
-// Generated script for workflow b4ae4834-4cc5-44cf-962f-892f2be2d84a
-// Generated at 2025-07-14T19:35:33.948Z
+// Generated script for workflow 0cac9f8f-ef9f-40bb-9af5-23f189ef966d
+// Generated at 2025-07-14T21:12:53.280Z
 
 
 
@@ -27,16 +27,12 @@ async function runWorkflow() {
     
     
     const variables = {
-  input_b4ae48_1: "madhur@sliceinn.in",
-  input_b4ae48_2: "Madhur-d00",
-  input_b4ae48_3: "06/15/25",
-  input_b4ae48_4: "07/15/2025",
-  input_b4ae48_5: "15/07/25",
-  input_b4ae48_6: "15/06/25",
-  input_b4ae48_7: "15/06/25",
-  input_b4ae48_8: "15/06/25",
-  input_b4ae48_9: "15/06/25",
-  input_b4ae48_10: "15/06/25"
+  input_0cac9f_1: "madhur@sliceinn.in",
+  input_0cac9f_2: "Madhur-d00",
+  input_0cac9f_3: "06/15/25",
+  input_0cac9f_4: "07/15/25",
+  input_0cac9f_5: "15/06/25",
+  input_0cac9f_6: "15/07/25"
 };
     
 // Step 1: Navigate to URL
@@ -48,7 +44,7 @@ console.log("Performing action: type 'madhur@sliceinn.in' into the email input")
 await page.act({
   description: "type 'madhur@sliceinn.in' into the email input",
   method: "fill",
-  arguments: [variables.input_b4ae48_1],
+  arguments: [variables.input_0cac9f_1],
   selector: "xpath=/html[1]/body[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]"
 });
     
@@ -57,7 +53,7 @@ console.log("Performing action: type 'Madhur-d00' into the password input");
 await page.act({
   description: "type 'Madhur-d00' into the password input",
   method: "fill",
-  arguments: [variables.input_b4ae48_2],
+  arguments: [variables.input_0cac9f_2],
   selector: "xpath=/html[1]/body[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]/form[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]"
 });
     
@@ -98,11 +94,11 @@ await page.act({
 });
     
 // Step 8: Perform action
-console.log("Performing action: type '06/15/25' into the start date input");
+console.log("Performing action: clear and type '06/15/25' into the start date input");
 await page.act({
-  description: "type '06/15/25' into the start date input",
+  description: "clear and type '06/15/25' into the start date input",
   method: "fill",
-  arguments: [variables.input_b4ae48_3],
+  arguments: [variables.input_0cac9f_3],
   selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/span[1]/span[1]/span[1]/div[1]/input[1]"
 });
     
@@ -116,42 +112,60 @@ await page.act({
 });
     
 // Step 10: Perform action
-console.log("Performing action: type '07/15/2025' into the end date input field");
+console.log("Performing action: type '07/15/25' into the end date input field");
 await page.act({
-  description: "type '07/15/2025' into the end date input field",
+  description: "type '07/15/25' into the end date input field",
   method: "fill",
-  arguments: [variables.input_b4ae48_4],
+  arguments: [variables.input_0cac9f_4],
   selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/span[1]/span[1]/span[1]/div[1]/input[1]"
 });
     
 // Step 11: Perform action
-console.log("Performing action: click the 'Tue Jul 15 2025' date cell");
+console.log("Performing action: click the gridcell for Tue Jul 15 2025");
 await page.act({
-  description: "click the 'Tue Jul 15 2025' date cell",
+  description: "click the gridcell for Tue Jul 15 2025",
   method: "click",
   arguments: [],
   selector: "xpath=/html[1]/body[1]/div[7]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[3]/div[3]"
 });
     
 // Step 12: Perform action
-console.log("Performing action: click the 'check-in' filter button");
+console.log("Performing action: click the filter button that shows check-in");
 await page.act({
-  description: "click the 'check-in' filter button",
+  description: "click the filter button that shows check-in",
   method: "click",
   arguments: [],
   selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]/span[1]/span[1]/div[1]/button[1]"
 });
     
 // Step 13: Perform action
-console.log("Performing action: click the 'booking made on' option");
+console.log("Performing action: click the booking made on option");
 await page.act({
-  description: "click the 'booking made on' option",
+  description: "click the booking made on option",
   method: "click",
   arguments: [],
   selector: "xpath=/html[1]/body[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/a[1]/div[1]"
 });
     
 // Step 14: Perform action
+console.log("Performing action: click the start date input field");
+await page.act({
+  description: "click the start date input field",
+  method: "click",
+  arguments: [],
+  selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/span[1]/span[1]/span[1]/div[1]/input[1]"
+});
+    
+// Step 15: Perform action
+console.log("Performing action: type '15/06/25' into the start date input field");
+await page.act({
+  description: "type '15/06/25' into the start date input field",
+  method: "fill",
+  arguments: [variables.input_0cac9f_5],
+  selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/span[1]/span[1]/span[1]/div[1]/input[1]"
+});
+    
+// Step 16: Perform action
 console.log("Performing action: click the end date input field");
 await page.act({
   description: "click the end date input field",
@@ -160,16 +174,16 @@ await page.act({
   selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/span[1]/span[1]/span[1]/div[1]/input[1]"
 });
     
-// Step 15: Perform action
+// Step 17: Perform action
 console.log("Performing action: type '15/07/25' into the end date input field");
 await page.act({
   description: "type '15/07/25' into the end date input field",
   method: "fill",
-  arguments: [variables.input_b4ae48_5],
+  arguments: [variables.input_0cac9f_6],
   selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/span[1]/span[1]/span[1]/div[1]/input[1]"
 });
     
-// Step 16: Perform action
+// Step 18: Perform action
 console.log("Performing action: click the Submit button");
 await page.act({
   description: "click the Submit button",
@@ -178,61 +192,16 @@ await page.act({
   selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/button[1]"
 });
     
-// Step 17: Perform action
-console.log("Performing action: click the Today button");
+// Step 19: Perform action
+console.log("Performing action: click the gridcell for 15 in July 2025");
 await page.act({
-  description: "click the Today button",
-  method: "click",
-  arguments: [],
-  selector: "xpath=/html[1]/body[1]/div[8]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/button[1]"
-});
-    
-// Step 18: Perform action
-console.log("Performing action: click the 'Tue Jul 15 2025' date cell");
-await page.act({
-  description: "click the 'Tue Jul 15 2025' date cell",
+  description: "click the gridcell for 15 in July 2025",
   method: "click",
   arguments: [],
   selector: "xpath=/html[1]/body[1]/div[8]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[3]/div[3]"
 });
     
-// Step 19: Perform action
-console.log("Performing action: click the start date input field");
-await page.act({
-  description: "click the start date input field",
-  method: "click",
-  arguments: [],
-  selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/span[1]/span[1]/span[1]/div[1]/input[1]"
-});
-    
 // Step 20: Perform action
-console.log("Performing action: type '15/06/25' into the start date input field");
-await page.act({
-  description: "type '15/06/25' into the start date input field",
-  method: "fill",
-  arguments: [variables.input_b4ae48_6],
-  selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/span[1]/span[1]/span[1]/div[1]/input[1]"
-});
-    
-// Step 21: Perform action
-console.log("Performing action: click the Submit button");
-await page.act({
-  description: "click the Submit button",
-  method: "click",
-  arguments: [],
-  selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/button[1]"
-});
-    
-// Step 22: Perform action
-console.log("Performing action: click the 'Sun Jun 15 2025' date cell");
-await page.act({
-  description: "click the 'Sun Jun 15 2025' date cell",
-  method: "click",
-  arguments: [],
-  selector: "xpath=/html[1]/body[1]/div[7]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[3]/div[1]"
-});
-    
-// Step 23: Perform action
 console.log("Performing action: click the Today button");
 await page.act({
   description: "click the Today button",
@@ -241,193 +210,35 @@ await page.act({
   selector: "xpath=/html[1]/body[1]/div[7]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/button[1]"
 });
     
-// Step 24: Perform action
-console.log("Performing action: click the start date input field");
+// Step 21: Perform action
+console.log("Performing action: click the Today button");
 await page.act({
-  description: "click the start date input field",
+  description: "click the Today button",
   method: "click",
   arguments: [],
-  selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/span[1]/span[1]/span[1]/div[1]/input[1]"
+  selector: "xpath=/html[1]/body[1]/div[7]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/button[1]"
 });
-    
-// Step 25: Perform action
-console.log("Performing action: type '15/06/25' into the start date input field");
+
+// pause for 60 s
+await setTimeout(() => {
+  console.log("Pausing for 60 seconds...");
+}, 60000);
+// Step 22: Perform action
+console.log("Performing action: click the Download button");
 await page.act({
-  description: "type '15/06/25' into the start date input field",
-  method: "fill",
-  arguments: [variables.input_b4ae48_7],
-  selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/span[1]/span[1]/span[1]/div[1]/input[1]"
-});
-    
-// Step 26: Perform action
-console.log("Performing action: click the 'Sun Jun 15 2025' date cell");
-await page.act({
-  description: "click the 'Sun Jun 15 2025' date cell",
+  description: "click the Download button",
   method: "click",
   arguments: [],
-  selector: "xpath=/html[1]/body[1]/div[7]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[3]/div[1]"
+  selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/span[1]/span[1]/div[1]/span[1]"
 });
     
-// Step 27: Perform action
-console.log("Performing action: click the 'MasterReport' text");
+// Step 23: Perform action
+console.log("Performing action: click the Download as CSV option");
 await page.act({
-  description: "click the 'MasterReport' text",
+  description: "click the Download as CSV option",
   method: "click",
   arguments: [],
-  selector: "xpath=/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/section[1]/div[2]"
-});
-    
-// Step 28: Perform action
-console.log("Performing action: click the start date input field");
-await page.act({
-  description: "click the start date input field",
-  method: "click",
-  arguments: [],
-  selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/span[1]/span[1]/span[1]/div[1]/input[1]"
-});
-    
-// Step 29: Perform action
-console.log("Performing action: type '15/06/25' into the start date input field");
-await page.act({
-  description: "type '15/06/25' into the start date input field",
-  method: "fill",
-  arguments: [variables.input_b4ae48_8],
-  selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/span[1]/span[1]/span[1]/div[1]/input[1]"
-});
-    
-// Step 30: Perform action
-console.log("Performing action: click the Submit button");
-await page.act({
-  description: "click the Submit button",
-  method: "click",
-  arguments: [],
-  selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/button[1]"
-});
-    
-// Step 31: Perform action
-console.log("Performing action: click the 'Sun Jun 15 2025' date cell");
-await page.act({
-  description: "click the 'Sun Jun 15 2025' date cell",
-  method: "click",
-  arguments: [],
-  selector: "xpath=/html[1]/body[1]/div[7]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[3]/div[1]"
-});
-    
-// Step 32: Perform action
-console.log("Performing action: click the Clear button");
-await page.act({
-  description: "click the Clear button",
-  method: "click",
-  arguments: [],
-  selector: "xpath=/html[1]/body[1]/div[7]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/button[2]"
-});
-    
-// Step 33: Perform action
-console.log("Performing action: click the start date input field");
-await page.act({
-  description: "click the start date input field",
-  method: "click",
-  arguments: [],
-  selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/span[1]/span[1]/span[1]/div[1]/input[1]"
-});
-    
-// Step 34: Perform action
-console.log("Performing action: type '15/06/25' into the start date input field");
-await page.act({
-  description: "type '15/06/25' into the start date input field",
-  method: "fill",
-  arguments: [variables.input_b4ae48_9],
-  selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/span[1]/span[1]/span[1]/div[1]/input[1]"
-});
-    
-// Step 35: Perform action
-console.log("Performing action: click the 'Sun Jun 15 2025' date cell");
-await page.act({
-  description: "click the 'Sun Jun 15 2025' date cell",
-  method: "click",
-  arguments: [],
-  selector: "xpath=/html[1]/body[1]/div[7]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[3]/div[1]"
-});
-    
-// Step 36: Perform action
-console.log("Performing action: click the Submit button");
-await page.act({
-  description: "click the Submit button",
-  method: "click",
-  arguments: [],
-  selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/button[1]"
-});
-    
-// Step 37: Perform action
-console.log("Performing action: click the 'MasterReport' text");
-await page.act({
-  description: "click the 'MasterReport' text",
-  method: "click",
-  arguments: [],
-  selector: "xpath=/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/section[1]/div[2]"
-});
-    
-// Step 38: Perform action
-console.log("Performing action: click the start date input field");
-await page.act({
-  description: "click the start date input field",
-  method: "click",
-  arguments: [],
-  selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/span[1]/span[1]/span[1]/div[1]/input[1]"
-});
-    
-// Step 39: Perform action
-console.log("Performing action: type '15/06/25' into the start date input field");
-await page.act({
-  description: "type '15/06/25' into the start date input field",
-  method: "fill",
-  arguments: [variables.input_b4ae48_10],
-  selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/span[1]/span[1]/span[1]/div[1]/input[1]"
-});
-    
-// Step 40: Perform action
-console.log("Performing action: click the 'Sun Jun 15 2025' date cell");
-await page.act({
-  description: "click the 'Sun Jun 15 2025' date cell",
-  method: "click",
-  arguments: [],
-  selector: "xpath=/html[1]/body[1]/div[7]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[3]/div[1]"
-});
-    
-// Step 41: Perform action
-console.log("Performing action: click the Clear button");
-await page.act({
-  description: "click the Clear button",
-  method: "click",
-  arguments: [],
-  selector: "xpath=/html[1]/body[1]/div[7]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/button[2]"
-});
-    
-// Step 42: Perform action
-console.log("Performing action: click the Download text");
-await page.act({
-  description: "click the Download text",
-  method: "click",
-  arguments: [],
-  selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/span[1]/span[1]/div[1]"
-});
-    
-// Step 43: Perform action
-console.log("Performing action: click the 'Download as Excel' text");
-await page.act({
-  description: "click the 'Download as Excel' text",
-  method: "click",
-  arguments: [],
-  selector: "xpath=/html[1]/body[1]/div[10]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
-});
-    
-// Step 44: Perform action
-console.log("Performing action: click the 'Download as CSV' text");
-await page.act({
-  description: "click the 'Download as CSV' text",
-  method: "click",
-  arguments: [],
-  selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/span[1]/span[1]/div[1]"
+  selector: "xpath=/html[1]/body[1]/div[10]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
 });
     
     
