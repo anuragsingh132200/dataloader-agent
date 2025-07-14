@@ -1,4 +1,4 @@
-# Download-Booking-Data-Export
+# Export-Booking-Data-Automation
 
 This script was generated from the workflow editor.
 
