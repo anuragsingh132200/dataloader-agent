@@ -31,8 +31,8 @@ async function runWorkflow() {
   input_0cac9f_2: "Madhur-d00",
   input_0cac9f_3: "06/15/25",
   input_0cac9f_4: "07/15/25",
-  input_0cac9f_5: "15/06/25",
-  input_0cac9f_6: "15/07/25"
+  input_0cac9f_5: "24/04/25",
+  input_0cac9f_6: "24/07/25"
 };
     
 // Step 1: Navigate to URL
@@ -94,9 +94,9 @@ await page.act({
 });
     
 // Step 8: Perform action
-console.log("Performing action: clear and type '06/15/25' into the start date input");
+console.log("Performing action: clear and type '25/04/25' into the start date input");
 await page.act({
-  description: "clear and type '06/15/25' into the start date input",
+  description: "clear and type '25/04/25' into the start date input",
   method: "fill",
   arguments: [variables.input_0cac9f_3],
   selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/span[1]/span[1]/span[1]/div[1]/input[1]"
@@ -112,9 +112,9 @@ await page.act({
 });
     
 // Step 10: Perform action
-console.log("Performing action: type '07/15/25' into the end date input field");
+console.log("Performing action: type '24/07/25' into the end date input field");
 await page.act({
-  description: "type '07/15/25' into the end date input field",
+  description: "type '24/07/25' into the end date input field",
   method: "fill",
   arguments: [variables.input_0cac9f_4],
   selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/span[1]/span[1]/span[1]/div[1]/input[1]"
@@ -157,9 +157,9 @@ await page.act({
 });
     
 // Step 15: Perform action
-console.log("Performing action: type '15/06/25' into the start date input field");
+console.log("Performing action: type '25/04/25' into the start date input field");
 await page.act({
-  description: "type '15/06/25' into the start date input field",
+  description: "type '25/04/25' into the start date input field",
   method: "fill",
   arguments: [variables.input_0cac9f_5],
   selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/span[1]/span[1]/span[1]/div[1]/input[1]"
@@ -175,9 +175,9 @@ await page.act({
 });
     
 // Step 17: Perform action
-console.log("Performing action: type '15/07/25' into the end date input field");
+console.log("Performing action: type '24/07/25' into the end date input field");
 await page.act({
-  description: "type '15/07/25' into the end date input field",
+  description: "type '24/07/25' into the end date input field",
   method: "fill",
   arguments: [variables.input_0cac9f_6],
   selector: "xpath=/html[1]/body[1]/div[3]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/span[1]/span[1]/span[1]/div[1]/input[1]"
